@@ -33,4 +33,4 @@ Python 3.10 ou une version supérieure.
 
 1. Cloner le dépôt :
    ```bash
-   git clone [https://github.com/MazouziMohamed/structures_repetitives_python.git](https://github.com/MazouziMohamed/structures_repetitives_python.git)
+      https://github.com/MazouziMohamed/structures_repetitives_python.git
