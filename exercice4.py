@@ -4,7 +4,7 @@ S = 1 + 10 + 100 + ... + 10^n '''
 # la solution corrigée de l'exercice
 n = -1
 while n < 0 :
-    n = int(input('Veuillez entrer un entier naturel : '))
+    n = int(input('Veuillez entrer un entier naturel n : '))
 somme = 1
 for i in range(1, n+1) :
     somme += 10 ** i
