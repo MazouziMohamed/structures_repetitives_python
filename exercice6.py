@@ -10,6 +10,6 @@ somme = 1
 if n <= 1:
     print(f"La somme de carré de {n} premier entier impair est : {n}")
 else :
-    for i in range(3, n*2, 2) :
+    for i in range(1, n*2, 2) :
         somme += i **2
     print(f"La somme des carrés des {n} premiers entiers impairs est : {somme}")
