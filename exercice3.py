@@ -8,4 +8,4 @@ while n < 1 :
 somme = 0
 for i in range(1, n+1) :
     somme += 1 / i
-print('La somme est :', somme)
+print(f"La somme est : {somme}")
