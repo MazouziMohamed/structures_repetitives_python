@@ -12,4 +12,4 @@ while age_amal < 0 :
 compte_bancaire_amal = 0
 for i in range(1, age_amal + 1) :
     compte_bancaire_amal += 500 + i * 3
-print('Quand Amal aura', age_amal, 'ans, elle aura', compte_bancaire_amal, 'DH sur son compte bancaire.')
+print(f"Quand Amal aura {age_amal} ans, elle aura {compte_bancaire_amal} DH sur son compte bancaire.")
