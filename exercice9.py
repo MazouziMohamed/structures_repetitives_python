@@ -10,4 +10,4 @@ while population_agadir <= population_marrakech :
     population_marrakech += 50000
     population_agadir += population_agadir * 0.08
     nombre_annees += 1
-print('La population de la ville agadir dépassera celle de la ville marrakech après', nombre_annees, 'ans.')
+print(f"La population de la ville agadir dépassera celle de la ville marrakech après {nombre_annees} ans.")
