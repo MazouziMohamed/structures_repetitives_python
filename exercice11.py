@@ -4,17 +4,17 @@
 # La suite de Fibonacci est définie comme suite :
 # F0 = 0
 # F1 = 1
-# Fn+2 = Fn+1 + Fn
+# Fn = Fn_1 + Fn_2
 # la solution corrigée de l'exercice
 n = -1
 while n < 0 :
-    n = int(input('Veuillez entrer un entier naturel n : '))
-Fn, Fn_1 = 0,1 # Remarque : Fn_1 représente Fn+1
+    n = int(input('Veuillez entrer la valeur de n (n est un entier naturel) : '))
+Fn_2, Fn_1 = 0,1
 if n < 2 :
-    print('F', n, ' = ', n, sep = '')
+    print(f"F{n} = {n}")
 else :
     for i in range(2, n+1) :
-        Fn_2 = Fn_1 + Fn
-        Fn = Fn_1
-        Fn_1 = Fn_2
-    print('F', n, ' = ', Fn_2, sep = '')
+        Fn = Fn_1 + Fn_2
+        Fn_2 = Fn_1
+        Fn_1 = Fn
+    print(f"F{n} = {Fn}")
